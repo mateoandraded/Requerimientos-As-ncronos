@@ -5,10 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Requerimientos Asincronos</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
 </head>
 <body class="bg-gray-100">
   <div class="container mx-auto px-4 py-8">
     <h1 class="text-3xl font-bold text-center mb-6">Requerimientos Asincronos</h1>
+
+    <table id="coffee" class="display w-full bg-white rounded shadow">
+      <thead>
+        <tr>
+          <th class="px-4 py-2">Fecha</th>
+          <th class="px-4 py-2">Hora</th>
+          <th class="px-4 py-2">Cafe</th>
+          <th class="px-4 py-2">Monto</th>
+          <th class="px-4 py-2">Pago</th>
+          <th class="px-4 py-2">Momento</th>
+          <th class="px-4 py-2">Dia</th>
+        </tr>
+      </thead>
+      <tbody id="coffee-body">
+      </tbody>
+    </table>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 </body>
 </html>
