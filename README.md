@@ -1,3 +1,3 @@
-# Requerimientos-As-ncronos
+# Requerimientos Asincronos
 
-Repositorio de la actividad.
+mateo andres andrade dominguez
